@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Selecao">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout de CheckinBox"
+        android:textSize="30sp"
+        android:gravity="center_horizontal" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVermelho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vermelho"
+        android:textSize="20sp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxAmarelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amarelo"
+        android:textSize="20sp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxVerde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verde"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/corSelecionada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cor Selecionada"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/enviar_cores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="enviar"/>
+</LinearLayout>
